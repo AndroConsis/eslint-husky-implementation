@@ -23,6 +23,7 @@ const instructions = Platform.select({
 
 export default class App extends Component {
   componentDidCatch() {
+    super();
     // To remove react/prefer-stateless-function eslint error
   }
 
